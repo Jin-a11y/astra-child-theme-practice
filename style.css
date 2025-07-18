@@ -1,0 +1,54 @@
+/*
+ Theme Name: astra childs
+ Template: astra
+*/
+
+/* Background color */
+body {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+/* Header background */
+.site-header {
+    background-color: #ffffff8a;
+    padding: 20px;
+    color: #000000;
+}
+
+/* Footer background */
+.site-footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    text-align: left !important;
+    padding: 20px !important;
+}
+.site-footer a {
+    color: #f7f7f7 !important;
+}
+
+
+/* Responsive heading */
+h1 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+/* Header-thumbnail */
+
+h1.entry-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .site-header, .site-footer {
+        padding: 10px;
+        background-color: rgb(14, 14, 14);
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
